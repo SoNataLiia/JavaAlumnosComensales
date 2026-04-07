@@ -45,7 +45,7 @@ public class Alumno extends Thread {
             tenedorIzquierdo.coger(id);
         }
 
-        // seccion critica por ejemplo el alumno come con ambos tenedores en la mano
+
         System.out.println(">>> Alumno " + id + " COMIENDO arroz <<<");
         Thread.sleep((long) (Math.random() * 1000 + 500));
 
